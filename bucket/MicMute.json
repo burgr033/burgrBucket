@@ -3,7 +3,7 @@
     "version": "0.0.8",
     "bin": "MicMute.exe",
     "license": "MIT",
-    "shortcuts": ["MicMute.exe", "MicMute"],
+    "shortcuts": [["MicMute.exe", "MicMute"]],
     "homepage": "https://github.com/Anc813/MicMute",
     "checkver": "github",
     "autoupdate": {
