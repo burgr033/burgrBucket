@@ -7,10 +7,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ModelioOpenSource/Modelio/releases/download/v5.3.1/Modelio.Open.Source.5.3.1.-.64.exe#/dl.7z",
-            "hash": "a0dfe06f07619003d3f3189801a8df165fd51afe9f06c5be0e3887d8cafe0b9e"
+            "hash": "a0dfe06f07619003d3f3189801a8df165fd51afe9f06c5be0e3887d8cafe0b9e",
+            "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
         }
     },
-    "post_install": "'$PLUGINSDIR', 'uninstaller.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
     "bin": "modelio.exe",
     "shortcuts": [["modelio.exe", "modelio"]],
     "checkver": {
