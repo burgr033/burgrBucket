@@ -1,0 +1,13 @@
+{
+	"hash": "e7e235eacfe4e7a61778b54156b8ba278f9cc4cfcc76f7593dc0955fb0a9dc88",
+	"version": "0.0.8",
+	"bin": "MicMute.exe",
+	"license": "MIT",
+	"shortcuts": ["MicMute"],
+	"homepage": "https://github.com/Anc813/MicMute",
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/Anc813/MicMute/releases/download/v$version/MicMute.exe"
+	},
+	"url": "https://github.com/Anc813/MicMute/releases/download/0.0.8/MicMute.exe"
+}
