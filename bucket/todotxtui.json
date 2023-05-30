@@ -22,7 +22,7 @@
         "args": "$dir"
     },
     "post_install": [
-        "try { python -m pip install -r requirements.txt --user } finally {}"
+        "try { python -m pip install -r $dir\\requirements.txt --user } finally {}"
     ],
     "bin": "todotxtui.ps1",
     "version": "v0.9.0",
