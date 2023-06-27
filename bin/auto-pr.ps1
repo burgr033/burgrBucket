@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "cigh033/scoopBucket:main"
+    [String]$upstream = "cigh033/burgrBucket:main"
 )
 
 if (!$env:SCOOP_HOME)
