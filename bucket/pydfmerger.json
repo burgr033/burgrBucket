@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/PyDFMerger/releases/download/v0.0.1/PyDFMerger-0.0.1.zip",
+                "https://github.com/cigh033/pydfmerger/releases/download/v0.0.1/pydfmerger-v0.0.1.zip",
                 "https://raw.githubusercontent.com/cigh033/burgrBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
@@ -17,17 +17,23 @@
             ]
         }
     },
-    "shortcuts": [["pydfmerger.py", "PyDFMerger"]],
+    "shortcuts": [
+        [
+            "pydfmerger.py",
+            "PyDFMerger"
+        ]
+    ],
     "notes": "please install python packages listed in requirements.txt",
     "installer": {
         "file": "pyshim.ps1",
-        "args": ["$dir", "-noconsole"]
+        "args": [
+            "$dir",
+            "-noconsole"
+        ]
     },
-    "post_install": [
-        "try { python -m pip install -r $dir\\requirements.txt --user } finally {}"
-    ],
+    "post_install": "try { python -m pip install -r $dir\\requirements.txt --user } finally {}",
     "bin": "pydfmerger.ps1",
-    "version": "v0.0.1",
+    "version": "0.0.1",
     "extract_dir": "",
     "checkver": "github",
     "autoupdate": {
