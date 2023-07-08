@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/code2rtf/releases/download/v0.0.1/code2rtf_v0.0.1.zip",
+                "https://github.com/cigh033/code2rtf/releases/download/v0.0.2/code2rtf_v0.0.2.zip",
                 "https://raw.githubusercontent.com/cigh033/scoopBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
-                "b3f4bcb632da5db7d3b2c07f95b860f3bc40f4169f04b90127b927ca0c8170ab",
+                "8c09564cc050496dba0b5421d6079031905749ce4587b9bfd277e4873e2353c5",
                 "1fbf884c0b19b58b83e70a57032775857d2772de81344dd25b06b929ff2be79c"
             ]
         }
