@@ -35,7 +35,7 @@
         "try { python -m pip install -r $dir\\requirements.txt --user } finally {}"
     ],
     "bin": "code2rtf.ps1",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "extract_dir": "",
     "checkver": "github",
     "autoupdate": {
