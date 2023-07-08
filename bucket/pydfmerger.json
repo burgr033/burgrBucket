@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/pydfmerger/releases/download/v0.0.2/pydfmerger-v0.0.2.zip",
+                "https://github.com/cigh033/PyDFMerger/archive/refs/tags/0.0.2.zip",
                 "https://raw.githubusercontent.com/cigh033/burgrBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/pydfmerger/releases/download/v$version/pydfmerger-v$version.zip"
+                "url": "https://github.com/cigh033/PyDFMerger/archive/refs/tags/$version.zip"
             }
         }
     }
