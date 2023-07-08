@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/code2rtf/releases/download/v0.0.1/code2rtf-0.0.1.zip",
+                "https://github.com/cigh033/code2rtf/releases/download/v0.0.1/code2rtf_0.0.1.zip",
                 "https://raw.githubusercontent.com/cigh033/scoopBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
@@ -17,23 +17,31 @@
             ]
         }
     },
-    "shortcuts": [["code2rtf.py", "Code2RTF"]],
+    "shortcuts": [
+        [
+            "code2rtf.py",
+            "Code2RTF"
+        ]
+    ],
     "notes": "please install python packages listed in requirements.txt",
     "installer": {
         "file": "pyshim.ps1",
-        "args": ["$dir", "-noconsole"]
+        "args": [
+            "$dir",
+            "-noconsole"
+        ]
     },
     "post_install": [
         "try { python -m pip install -r $dir\\requirements.txt --user } finally {}"
     ],
     "bin": "code2rtf.ps1",
-    "version": "v0.0.1",
+    "version": "0.0.1",
     "extract_dir": "",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/code2rtf/releases/download/v$version/code2rtf-v$version.zip"
+                "url": "https://github.com/cigh033/code2rtf/releases/download/v$version/code2rtf_$version.zip"
             }
         }
     }
