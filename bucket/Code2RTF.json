@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/code2rtf/releases/download/v0.0.1/code2rtf_0.0.1.zip",
+                "https://github.com/cigh033/code2rtf/releases/download/v0.0.1/code2rtf_v0.0.1.zip",
                 "https://raw.githubusercontent.com/cigh033/scoopBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/code2rtf/releases/download/v$version/code2rtf_$version.zip"
+                "url": "https://github.com/cigh033/code2rtf/releases/download/v$version/code2rtf_v$version.zip"
             }
         }
     }

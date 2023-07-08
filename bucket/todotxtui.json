@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/todotxtui/releases/download/v$version/todotxtui_$version.zip"
+                "url": "https://github.com/cigh033/todotxtui/releases/download/v$version/todotxtui_v$version.zip"
             }
         }
     }
