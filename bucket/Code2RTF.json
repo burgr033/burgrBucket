@@ -34,7 +34,7 @@
     "post_install": [
         "try { python -m pip install -r $dir\\requirements.txt --user } finally {}"
     ],
-    "bin": "code2rtf.py",
+    "bin": "code2rtf.ps1",
     "version": "0.0.1",
     "extract_dir": "",
     "checkver": "github",
