@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/cigh033/code2rtf",
+    "homepage": "https://github.com/burgr033/code2rtf",
     "license": "MIT",
     "description": "Getting Code properly formatted for Powerpoints, Word Documents, etc.",
     "suggest": {
@@ -8,8 +8,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/code2rtf/releases/download/v0.0.3/code2rtf_v0.0.3.zip",
-                "https://raw.githubusercontent.com/cigh033/scoopBucket/master/scripts/pyshim.ps1"
+                "https://github.com/burgr033/code2rtf/releases/download/v0.0.3/code2rtf_v0.0.3.zip",
+                "https://raw.githubusercontent.com/burgr033/scoopBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
                 "2de8ddc2f3399846e281baecd052c586a672a9a3f0e54fc93cb937b808dbd5f2",
@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/code2rtf/releases/download/v$version/code2rtf_v$version.zip"
+                "url": "https://github.com/burgr033/code2rtf/releases/download/v$version/code2rtf_v$version.zip"
             }
         }
     }

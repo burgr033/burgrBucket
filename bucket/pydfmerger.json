@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/cigh033/pydfmerger",
+    "homepage": "https://github.com/burgr033/pydfmerger",
     "license": "MIT",
     "description": "GUI to merge PDFs with TKInter & pypdf",
     "suggest": {
@@ -8,8 +8,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/cigh033/PyDFMerger/releases/download/v0.0.2/PyDFMerger_v0.0.2.zip",
-                "https://raw.githubusercontent.com/cigh033/burgrBucket/master/scripts/pyshim.ps1"
+                "https://github.com/burgr033/PyDFMerger/releases/download/v0.0.2/PyDFMerger_v0.0.2.zip",
+                "https://raw.githubusercontent.com/burgr033/burgrBucket/master/scripts/pyshim.ps1"
             ],
             "hash": [
                 "0c20164a6bc6c315dbbcc85907e8d75baf3f73a1df08c9d4ea62d4843a5c7b2a",
@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cigh033/PyDFMerger/releases/download/v$version/PyDFMerger_v$version.zip"
+                "url": "https://github.com/burgr033/PyDFMerger/releases/download/v$version/PyDFMerger_v$version.zip"
             }
         }
     }
